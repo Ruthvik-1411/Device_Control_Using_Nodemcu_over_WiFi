@@ -1,0 +1,50 @@
+<!---The general !DOCTYPE..... can be used but this is used in nodemcu so i made it short--->
+
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1" http-equiv='refresh' content='5'/>
+	<title>Smart Hub</title>
+</head>
+<style>
+body {font-family: Helvetica Neue; font-size:24; Color: #ffffff;text-align: center;}
+
+button {font-family: Helvetica Neue; font-size:20; Color: #000000;margin: 10px; background-color:#ffffff; border-radius: 5px;opacity: 1;}
+
+.imgcontent {background-image: url("http://gdurl.com/7AvX") ;background-size: cover; height: 100%; overflow: hidden;z-index=1;}
+
+.div1  {background-color: #000000; position:fixed; padding-top: 5px; margin: 10px; margin-top: 20px; margin-left: 20%; margin-right: 20%; height: 80%; width: 60%; opacity: 0.45;z-index=2;}
+.div2  {position:fixed; padding-top: 5px; margin: 10px; margin-top: 50px; height: 500px; width: 95%; text-align: center;z-index=10;opacity: 1}
+
+</style>
+<body class="imgcontent"><center>
+<div class="div1"></div>
+<div class="div2">
+<h1>
+	<center>Smart Hub</center>
+	<span><center><button onclick="window.location.href='/';">Refresh &orarr;</button></center></span>
+</h1>
+<h3>
+<center>
+&ensp;Device Id<span>&ensp;status</span>
+</center>
+</h3><center>
+<button onclick="window.location.href='/dev1=0';">Device No 1</button>
+<span>Active</span><br>
+<button onclick="window.location.href='/dev2=0';">Device No 2</button>
+<span>Active</span><br>
+<button onclick="window.location.href='/dev3=0';">Device No 3</button>
+<span>Active</span><br>
+<button onclick="window.location.href='/dev4=0';">Device No 4</button>
+<span>Active</span>
+</center>
+</center>
+</div>
+</body>
+</html>
+
+<!--- #34568b classic blue
+	#ff6f61 living coral
+	#6b5b95 ultra violet
+	#b565a7 radiand orchid
+	#88b04b greenery
+	#478559 green treeline
+--->
