@@ -209,7 +209,7 @@ void statusread(){
   D3status=digitalRead(Device3);
   D4status=digitalRead(Device4);
 }
-//Function to make a decision based on data from statusread, as all the variables are global they can be accessed here and can be modified easily
+//Function to make a decision based on data from statusread, as all the variables are global they can be accessed here and can be modified easily and the changes are effected everywhere
 void decision(){
     if(D1status==1){                //As device 1,2 are LEDs if theu are HIGH(0N) that means they are Active so set their status as active, if not then set as inactive accordingly
       Stat1="Active";
