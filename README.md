@@ -1,6 +1,14 @@
 # Device_Control_Using_Nodemcu_over_WiFi
 The aim here is to control home appliances over wifi while we are in the same house. Say you are in one room and want to off the devices in another room but are too
  lazy to move. All you have to do is enter the ipaddress in the search bar and you will be directed to a website where you can monitor your devices and control them.<br><br>
+<b>Components Used:</b><br>
+<li>Nodemcu &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;x1
+<li>Device/Appliances/Leds  &emsp;x4
+<li>Relay Module&ensp;(according to the number of devices)
+<li>Jumper Wires
+<li>WiFi and a smart phone/device with browser
+<li>Power Supply(DC or AC)
+ <br><br>
 <b> Working and explanation:</b><br>
 Let us the see the working of the nodemcu code and then the effect on website correspondingly.
  Firstly, when the nodemcu is powered on, We want it to disconnect to the existing connection (as it is off it will be none in this case). Now that everything is clean 
