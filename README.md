@@ -3,7 +3,7 @@ The aim here is to control home appliances over wifi while we are in the same ho
  lazy to move. All you have to do is enter the ipaddress in the search bar and you will be directed to a website where you can monitor your devices and control them.<br><br>
 <b>Components Used:</b><br>
 <li>Nodemcu &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;x1
-<li>Device/Appliances/Leds  &emsp;x4
+<li>Device/Appliances/Leds  &emsp;x4(+1)
 <li>Relay Module&ensp;(according to the number of devices)
 <li>Jumper Wires
 <li>WiFi and a smart phone/device with browser
