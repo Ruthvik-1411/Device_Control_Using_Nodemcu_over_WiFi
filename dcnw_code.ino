@@ -5,7 +5,7 @@
 
 //Most of the variables are declared global as it makes their usage simple while using larger functions repeatedly
 
-int Device0=D2;                                                 //Assigning Device pins for all 4 device(+1 for know the current status this is Device0 and lets say it as root)
+int Device0=D2;                                                 //Assigning Device pins for all 4 device(+1 to know the current status this is Device0 and lets say the device as root device)
 int Device1=D5;
 int Device2=D6;
 int Device3=D7;
