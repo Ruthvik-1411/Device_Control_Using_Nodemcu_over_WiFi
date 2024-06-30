@@ -27,7 +27,7 @@ Nothing was there on the page till now. All that happened is decision making in 
 We then see four buttons(+refresh i.e to get back to home) when we reach the site. If a button is pressed then the page which is at '..../' changes to '..../dev1' or'..../dev2' like that. When this page is reached on the server the corresponding function is executed. As we are no longer in the home page the Device 0 goes off.<br><br>
 Initially all the devices are inactive, when we press a button then the corresponding device gets active. Now what if we press the button again, we want it to go off right! For that I used an if else condition that monitors if the device is already active or inactive. If it is already active then the button will result in Deactivating the device and vice-versa.The button's status is read and the decision is taken again and the data is sent to the server to put it on the page. The status of our devices must be independent of each other, so their status(variable that stores) is made global so that even if multiple device are active they remain independent.<br><br>
 There is also a case when we can't reach our server. In that case a function 'handleNotFound' is made so that it prints the message from html accordingly.<br>
-The Implementation video of this Project can be found here: <a href="https://drive.google.com/file/d/1fBV1CQ6ACpF0CGkhai4QmY9rXuPEMqfj/view?usp=sharing">Video Link</a><br>
+<b>YouTube Demo Link</b>: https://youtu.be/JlqAk_7v4O0 <br>
 The website looks like this <br>
 <img src="https://github.com/Ruthvik-1411/Device_Control_Using_Nodemcu_over_WiFi/blob/main/dcnw%20webpage%20layout.jpg"><br>
 The .ino code and .html code can be found above along with some pictures of the project.
